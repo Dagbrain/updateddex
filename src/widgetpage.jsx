@@ -1,8 +1,8 @@
-import {LiFiWidget, WidgetConfig } from '@lifi/widget';
+import {LiFiWidget } from '@lifi/widget';
 import { useMemo } from 'react';
 
 export const WidgetPage = () => {
-    const widgetConfig: WidgetConfig = useMemo(() => ({
+    const widgetConfig = useMemo(() => ({
       integrator:"PylonDEX",
       fee: 0.01,
       fromChain: 137,
